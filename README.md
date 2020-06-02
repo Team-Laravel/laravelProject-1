@@ -2,7 +2,7 @@
 
 <h2>Laravel 7 framework Crud tutorial</h2>
 <h5>Step 1:</h5>
-<p>Create table <pre>with php artisan make:migration create_products_table --create=products</pre> </p>
+<p>Create table with <pre>php artisan make:migration create_products_table --create=products</pre> </p>
 <h5>Step 2:</h5>
 <p>After create product table go to edit under "database/migration/yyyy_mm_d_000_create_table_name.php" file using your code editor.</p>
 <p>under function up section add your table column field name like product name, product description. EX:<pre>
