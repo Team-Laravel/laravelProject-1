@@ -18,6 +18,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+    .pull-left{
+      float: left;
+      }
+    .pull-right{
+      float: right;
+      }</style>
 </head>
 <body>
     <div id="app">

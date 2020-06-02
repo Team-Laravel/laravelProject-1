@@ -1,6 +1,6 @@
 <h1>Welcome to Laravel 7 framwork with user login authentication tutorial</h1>
 
-<h2>framework Crud tutorial</h2>
+<h2>Laravel 7 framework Crud tutorial</h2>
 <h5>Step 1:</h5>
 <p>Create table <pre>with php artisan make:migration create_products_table --create=products</pre> </p>
 <h5>Step 2:</h5>
@@ -40,5 +40,11 @@ public function up()
 <p>4) edit.blade.php</p>
 
 <p>5) show.blade.php</p>
+<p>You can find here under "resource/views/products/" folder to see all code.</p>
 <p>Once finish blade file run or see products page url and do crud operation</p>
 <p>Laravel 7 basic crud operation done</p>
+<h5>Step 6:</h5>
+<p>Add your page with user authentication.</p>
+<p>Go to "routes/web.php" file and add <pre>Route::get('/', 'ProductController@index')->name('products')->middleware('auth');
+Route::resource('products','ProductController')->middleware('auth');</pre></p>
+<p>So now without user can't access your dashboard or product crud page.</p>
